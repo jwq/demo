@@ -84,7 +84,7 @@ public class ParseService {
 		@Override
 		protected void onErrorExecute(int errorCode, String result, Exception e) {
 			if (null != dialog) {
-			//	dialog.dismiss();
+					dialog.dismiss();
 			}
 			Toast.makeText(
 					activity,
